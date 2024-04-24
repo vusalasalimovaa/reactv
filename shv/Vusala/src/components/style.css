@@ -1,0 +1,23 @@
+.layout{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input{
+  border: none;
+  background: none;
+  outline: none;
+}
