@@ -1,0 +1,93 @@
+.container{
+  max-width: 1240px;
+  margin: auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Sign{
+  background-color: #0a58ca;
+  padding: 15px;
+  border-radius: 10px;
+  border: none ;
+  color: white;
+}
+
+.inputandbutton{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.Submit{
+  background-color: #0a58ca;
+  padding: 15px;
+  border-radius: 10px;
+  border: none ;
+  color: white;
+}
+
+.emailInput{
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid gray;
+  width: 300px;
+
+}
+
+.heroTxt{
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+.Hero{
+  background: url("../assets/sea.jpg") no-repeat center center;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background-color: #f8f9fa;
+}
+
+.griditems{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 454px;
+  align-items: center;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridheader{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.gridtxt{
+  font-size: 20px;
+  width: 320px;
+  text-align: center;
+}
+
+.aboutgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+}
+
